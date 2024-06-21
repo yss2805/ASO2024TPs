@@ -1,4 +1,4 @@
-TP3
+TP3  
 a) Cuando ejecutas el mismo archivo varias veces, ves que el tiempo que toma es casi siempre el mismo. Pero si comparas el tiempo que tarda en ejecutarse un archivo con otro diferente, ahí sí que se nota la diferencia en el tiempo. No se puede predecir, porque los dos archivos hacen cosas distintas cuando se ejecutan.  
 b) Los tiempos son parecidos, pero no iguales.  
 c) Lo que pasó fue que cuando ejecuté el archivo 10 veces con las líneas comentadas, el valor final fue 0. Los tiempos variaron entre 0,0109 y 0,0106 segundos. Pero con el archivo con las líneas sin comentar, los valores finales daban números negativos y positivos sin pasarse de 500000 y -500000. Los tiempos variaron entre 2,6 y 2,5 segundos. Esto pasa porque se le agregó un for y un pass.
